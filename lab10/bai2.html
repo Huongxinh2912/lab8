@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2- lab10</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data" >
+    
+        <div class="form-group">
+            <label for="" class="text">Họ và Tên:</label> <br>
+            <input type="text" class="form-control" tabindex=”1”/>
+        </div>
+
+        <div class="form-group">
+            <fieldset style="margin: 10px 0px;">
+                <legend>Giới Tính:</legend>
+                <input type="radio"> <span class="text">Nam</span> 
+                <input type="radio"> <span class="text">Nữ</span> 
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="text">Ngày Sinh:</label> <br>
+            <input type="date" />
+        </div>
+
+        <div class="form-group">
+            <label for="" class="text">Điểm:</label> <br>
+            <input type="number" min="0" max="10" step="0.25" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="" class="text">Nghề Nghiệp:</label> <br>
+            <select name="" id="">
+            
+                <option value="Bác sĩ">Bác sĩ</option>
+                <option value="IT">IT</option>
+                <option value="Designer">Designer</option>
+                <option value="">Photographer</option>
+                <option value="">Thợ rèn</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <fieldset style="margin: 10px 0px;">
+                <legend>Sở Thích:</legend> <br>
+                <input type="checkbox" name="thethao">Thể Thao
+                <input type="checkbox" name="dulich">Du Lịch
+                <input type="checkbox" name="amnhac">Âm Nhạc
+                <input type="checkbox" name="amthuc">Ẩm Thực
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="text">Ghi Chú:</label> <br>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+
+        </div>
+        <hr/>
+        <div class="form-group">
+            <button class="form-button" tabindex=”3”>Đăng ký</button>
+            <button class="form-button" tabindex=”4”>Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>
